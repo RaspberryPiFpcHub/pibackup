@@ -15,7 +15,7 @@ Additionally, you can optionally change the device ID (MBR disk signature) durin
 - **Simple graphical user interface (GUI)**
 - No installation required – runs directly
 - 64-bit application for Linux
-- Automatically backs up the first two partitions (typically `/boot` and `/root`) of the selected device
+- Creates a full sector-level backup from the beginning of the disk (including the MBR) through the end of the second partition (typically /root).
 - Flexible removal of unwanted files and folders via a freely configurable **exclude file**
 - Optional removal of SSH and DHCP configurations from the backup
 - Shrinks the image after creation to optimize storage usage
