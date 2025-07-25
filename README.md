@@ -91,7 +91,7 @@ To launch PiBackup from the desktop or applications menu, you can create a `.des
 [Desktop Entry]
 Name=PiBackup
 Comment=Start the PiBackup tool
-Exec=/home/pi/PiBackup/start_pibackup.sh
+Exec=/path/to/start_pibackup.sh
 Icon=utilities-terminal
 Terminal=true
 Type=Application
