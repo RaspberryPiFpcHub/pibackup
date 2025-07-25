@@ -102,18 +102,18 @@ Categories=Utility;
 
 1. Save this content as a file named `PiBackup.desktop` in your home folder or on the desktop:
 
-    `/home/pi/Desktop/PiBackup.desktop`
+    `/home/your-username/Desktop/PiBackup.desktop`
 
 2. Make the file executable:
 
     ```bash
-    chmod +x /home/pi/Desktop/PiBackup.desktop
+    chmod +x /home/your-username/Desktop/PiBackup.desktop
     ```
 
 3. Optional: If you want to use a custom icon, replace the `Icon=` line with:
 
     ```ini
-    Icon=/home/pi/PiBackup/icon.png
+    Icon=/home/your-username/PiBackup/icon.png
     ```
 
 4. You can also copy the file to `~/.local/share/applications/` to make it appear in the main applications menu.
